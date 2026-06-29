@@ -118,7 +118,7 @@ function HeroGrid() {
 
       {/* RIGHT COLUMN — MacBook */}
       <div className="hg-card hg-macbook" onClick={() => router.push("/products/laptop")}>
-        <img src="screen.png" alt="MacBook Air" className="hg-mac-img-mobile" />
+        <img src="/screen.png" alt="MacBook Air" className="hg-mac-img-mobile" />
          <div className="hg-mac-text">
           <h2 style={{
     fontFamily: "var(--font-inter)",
@@ -132,7 +132,7 @@ function HeroGrid() {
             Shop Now
           </button>
         </div>
-        <img src="MacBook Pro 14.png" alt="" className="hg-mac-img-desktop" />
+        <img src="/MacBook Pro 14.png" alt="" className="hg-mac-img-desktop" />
       </div>
 
     </section>
@@ -140,3 +140,4 @@ function HeroGrid() {
 }
 
 export default HeroGrid;
+  

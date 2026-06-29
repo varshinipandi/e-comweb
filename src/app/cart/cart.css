@@ -546,6 +546,7 @@
  
 @media (max-width: 1024px) {
   .cart-page {
+    flex-direction: column;
     margin: 10px 40px;
     padding: 30px 40px;
     gap: 30px;

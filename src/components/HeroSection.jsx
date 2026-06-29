@@ -112,7 +112,7 @@ function HeroSection() {
             </button>
           </div>
           <div className="hero-image">
-            <img src="Iphone image.png" alt="iPhone" />
+            <img src="/Iphone image.png" alt="iPhone" />
           </div>
         </section>
 
@@ -174,7 +174,7 @@ function HeroSection() {
         {/* Popular — Desktop 4 grid */}
         <div className="popular">
           <div className="popular-card">
-            <img src="Group 1.png" alt="Popular" />
+            <img src="/Group 1.png" alt="Popular" />
             <div className="popular-1">
               <h2 style={{
     fontFamily: "var(--font-inter)",
@@ -191,7 +191,7 @@ function HeroSection() {
           </div>
 
           <div className="ipad-card">
-            <img src="ipad pro.png" alt="iPad Pro" />
+            <img src="/ipad pro.png" alt="iPad Pro" />
             <h2 style={{
     fontFamily: "var(--font-inter)",
     fontWeight: 300,
@@ -207,7 +207,7 @@ function HeroSection() {
           </div>
 
           <div className="samsung-card">
-            <img src="samsung galaxy.png" alt="Samsung Galaxy" />
+            <img src="/samsung galaxy.png" alt="Samsung Galaxy" />
             <div className="samsung-1">
               <h2 style={{
     fontFamily: "var(--font-inter)",
@@ -225,7 +225,7 @@ function HeroSection() {
           </div>
 
           <div className="macpro-card">
-            <img src="macbook.png" alt="Macbook Pro" />
+            <img src="/macbook.png" alt="Macbook Pro" />
             <div className="macpro-1">
               <h2 style={{
     fontFamily: "var(--font-inter)",

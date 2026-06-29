@@ -165,8 +165,7 @@ export default function Cart() {
 
         <button
   className="checkout-btn"
-  onClick={() => router.push("/checkout/address")}
->
+  onClick={() => router.push("/checkout/address")}>
   Checkout
 </button>
       </div>

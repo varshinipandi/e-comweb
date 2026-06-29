@@ -575,8 +575,8 @@
   }
 
   .card-image {
-    width: 100%;
-    max-width: 100%;
+    width: 60%;
+    max-width: 60%;
     margin-bottom: 20px;
   }
 
