@@ -1,0 +1,1687 @@
+/* =========================
+   FONT
+========================= */
+:root {
+  --font-poppins: var(--font-poppins);
+  --font-inter: var(--font-inter);
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+.font-section-1 {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+    "Helvetica Neue", sans-serif;
+}
+ 
+/* =========================
+   HERO
+========================= */
+.hero-section {
+  background: #211c24;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 180px;
+}
+ 
+.hero-content {
+  padding-bottom: 10px;
+  margin: 50px 0;
+}
+ 
+.hero-company {
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+ 
+.hero-title {
+  font-size: 100px;
+  font-weight: 100;
+  font-family: var(--font-inter), sans-serif;
+
+}
+ 
+.hero-title-strong,
+.hero-title strong {
+  font-weight: 700;
+  font-family: var(--font-inter), sans-serif;
+}
+ 
+.hero-description {
+  font-size: 20px;
+  color: #a5a5a5;
+  margin: 20px 0;
+  font-weight: 300;
+}
+ 
+.shop-btn {
+  background: transparent;
+  font-size: 17px;
+  color: white;
+  border: 1px solid white;
+  padding: 18px 60px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ 
+.hero-image img {
+  width: 400px;
+}
+ 
+/* =========================
+   HERO GRID
+========================= */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.left-grid {
+  display: flex;
+  flex-direction: column;
+}
+ 
+/* PlayStation */
+.playstation-card {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0;
+}
+ 
+.playstation-card img {
+  width: 370px;
+}
+ 
+.playstation-card h2 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+ 
+.playstation-card p {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+ 
+/* Small Cards */
+.small-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+/* AirPods */
+.airpods-card {
+  background: #ededed;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+ 
+.airpods-card img {
+  width: 120px;
+}
+ 
+.airpods-card h3 {
+  color: #2e2e2e;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+ 
+.airpods-card p {
+  font-weight: 500;
+  font-size: 17px;
+}
+ 
+.airpods-title {
+  font-weight: 100;
+  padding-left: 50px;
+}
+ 
+.airpods-strong {
+  color: #000;
+  font-weight: 700;
+}
+ 
+/* Vision */
+.vision-card {
+  background: #353535;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+ 
+.vision-card img {
+  width: 150px;
+}
+ 
+.vision-card p {
+  color: #bdbdbd;
+  font-weight: 500;
+  font-size: 17px;
+}
+ 
+.vision-card h3 {
+  color: #e9e8e8;
+  font-size: 40px;
+  font-weight: 100;
+}
+ 
+.vision-strong {
+  color: white;
+  font-weight: 700;
+}
+ 
+.vision-title {
+  padding-left: 30px;
+  margin-right: 10px;
+}
+ 
+/* Macbook */
+.macbook-card {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.macbook-text h1 {
+  color: #2e2e2e;
+  font-size: 60px;
+  font-weight: 100;
+  padding-left: 40px;
+}
+ 
+.macbook-text strong {
+  color: #000;
+  font-weight: 700;
+}
+ 
+.macbook-text p {
+  margin: 20px 0;
+  color: gray;
+  max-width: 350px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+ 
+.shop-dark {
+  background: transparent;
+  border: 2px solid black;
+  padding: 18px 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.popular-1 {
+  margin-top: -30px;
+}
+ 
+.macbook-card img {
+  width: 300px;
+}
+ 
+/* =========================
+   BROWSE
+========================= */
+.hero-browse {
+  background-color: #fcf9f9;
+}
+ 
+.browser {
+  margin: 0px 130px;
+}
+ 
+.hero-browser-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+ 
+.hhh {
+  margin: 50px 0 20px 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
+ 
+.browse-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+ 
+/* .hero-browse button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+} */
+ 
+.scroll-container {
+  display: flex;
+  gap: 17px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+ 
+.scroll-container img {
+  width: 60%;
+  height: 50%;
+  margin-bottom: 80px;
+}
+ 
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+ 
+.scroll-item {
+  min-width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 10px;
+}
+ 
+.btns {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 30px;
+}
+ 
+/* =========================
+   PRODUCTS
+========================= */
+.products {
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+ 
+.product-seller {
+  display: flex;
+  gap: 30px;
+  margin-left: 130px;
+}
+ 
+.product-seller a {
+  text-decoration: none;
+  color: #777;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+ 
+.product-seller a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+ 
+.product-seller a.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+ 
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 130px;
+}
+ 
+.product-cell {
+  position: relative;
+  background: #f8f8f8;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+ 
+.product-image {
+  width: 180px;
+  max-width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+ 
+.product-name {
+  font-size: 17px;
+  margin-top: 15px;
+  color: rgb(54, 54, 54);
+    font-weight: 400;
+}
+ 
+.product-price {
+  margin: 15px 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+ 
+.buy-now {
+  background: black;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 80%;
+}
+ 
+.buy-now:hover {
+  background: #89b007;
+  color: black;
+}
+ 
+/* Wishlist */
+.wishlist-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 37px;
+  color: #cccccc;
+  transition: all 0.3s ease;
+}
+ 
+.wishlist-btn:hover {
+  color: red;
+  transform: scale(1.1);
+}
+ 
+.wishlist-btn.active {
+  color: red;
+}
+ 
+/* =========================
+   POPULAR
+========================= */
+.popular {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+.popular-card,
+.ipad-card,
+.samsung-card,
+.macpro-card {
+  padding: 30px;
+  min-height: 450px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+ 
+.popular-card { background: #f1f1f1; }
+.ipad-card { background: #ededed; }
+.samsung-card { background: #e5e5e5; }
+.macpro-card { background: #2b2b2b; color: white; }
+ 
+.popular-card img,
+.ipad-card img,
+.samsung-card img,
+.macpro-card img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+ 
+.popular-card img { height: 56%; }
+ 
+.popular-card h2,
+.ipad-card h2,
+.samsung-card h2,
+.macpro-card h2 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+ 
+.popular-card p,
+.ipad-card p,
+.samsung-card p,
+.macpro-card p {
+  color: rgb(101, 100, 100);
+  font-size: 17px;
+  line-height: 24px;
+}
+ 
+.macpro-card p { color: #d0d0d0; }
+ 
+.shop-button {
+  background: transparent;
+  border: 2px solid black;
+  padding: 18px 60px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+ 
+.shop-button1 {
+  background: transparent;
+  border: 1px solid rgb(243, 238, 238);
+  color: #ededed;
+  padding: 15px 60px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+ 
+.macpro-card .shop-btn {
+  border: 1px solid white;
+  color: white;
+}
+ 
+/* =========================
+   DISCOUNTS
+========================= */
+.discounts {
+  margin-bottom: 60px;
+}
+ 
+.discounts h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 90px 0 40px 140px;
+}
+ 
+/* =========================
+   BANNER
+========================= */
+.banner {
+  background-image: url("/summer sale banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+ 
+.big-banner {
+  text-align: center;
+  transform: translateY(160px);
+}
+ 
+.banner h1 {
+  font-size: 80px;
+  font-weight: 100;
+}
+ 
+.banner strong { font-weight: 700; }
+ 
+.banner p {
+  font-size: 18px;
+  color: #a5a5a5;
+}
+ 
+.banner button { margin-top: 50px; }
+ 
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 110px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+ 
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+ 
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+ 
+.footer-column p {
+  color: #bdbdbd;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+ 
+.footer-icon {
+  display: flex;
+  gap: 60px;
+  margin-top: 200px;
+}
+ 
+.footer-icon img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+ 
+.footer-column1 {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.footer-column1 h3 {
+  margin-bottom: 20px;
+  color: white;
+}
+ 
+.footer-column1 a {
+  text-decoration: none;
+  color: #bdbdbd;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+ 
+.footer-column1 a:hover { color: white; }
+ 
+/* =========================
+   RESPONSIVE — 1024px
+========================= */
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 40px 60px;
+  }
+ 
+  .hero-title {
+    font-size: 65px;
+  }
+ 
+  .hero-image img {
+    width: 280px;
+  }
+ 
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 40px;
+  }
+ 
+  .product-seller {
+    margin-left: 40px;
+  }
+ 
+  .popular {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .popular-card,
+  .ipad-card,
+  .samsung-card,
+  .macpro-card {
+    min-height: auto;
+  }
+ 
+  .discounts h2 {
+    font-size: 22px;
+    margin: 60px 20px 30px;
+  }
+ 
+  .browser {
+    margin: 0 40px;
+  }
+}
+ 
+/* =========================
+   RESPONSIVE — 768px
+========================= */
+@media (max-width: 768px) {
+ 
+  /* HERO */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px 20px;
+  }
+ 
+  .hero-image {
+    order: 2;
+  }
+ 
+  .hero-content {
+    order: 1;
+  }
+ 
+  .hero-company {
+    font-size: 16px;
+  }
+ 
+  .hero-title {
+    font-size: 52px;
+    line-height: 1.1;
+  }
+ 
+  .hero-description {
+    font-size: 14px;
+    margin: 12px 0;
+  }
+ 
+  .shop-btn {
+    padding: 12px 35px;
+    font-size: 15px;
+  }
+ 
+  .hero-image img {
+    width: 240px;
+    margin-top: 20px;
+  }
+ 
+  /* HERO GRID — stack vertically like image */
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+ 
+  .small-cards {
+    grid-template-columns: 1fr;
+  }
+ 
+  .playstation-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+ 
+  .playstation-card img {
+    width: 200px;
+    margin: 0 auto 16px;
+  }
+ 
+  .playstation-card h2 {
+    font-size: 32px;
+  }
+ 
+  .airpods-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+ 
+  .airpods-card img {
+    width: 140px;
+    margin: 0 auto 16px;
+  }
+ 
+  .airpods-card h3 {
+    font-size: 28px;
+  }
+ 
+  .airpods-title {
+    padding-left: 0;
+  }
+ 
+  .vision-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+ 
+  .vision-card img {
+    width: 150px;
+    margin: 0 auto 16px;
+  }
+ 
+  .vision-card h3 {
+    font-size: 28px;
+  }
+ 
+  .vision-title {
+    padding-left: 0;
+    margin-right: 0;
+  }
+ 
+  .macbook-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+ 
+  .macbook-text h1 {
+    font-size: 36px;
+    padding-left: 0;
+  }
+ 
+  .macbook-text p {
+    padding-left: 0;
+    max-width: 100%;
+  }
+ 
+  .shop-dark {
+    margin-left: 0;
+    padding: 14px 40px;
+  }
+ 
+  .macbook-card img {
+    width: 220px;
+    margin-top: 20px;
+  }
+ 
+  /* BROWSE */
+  .browser {
+    margin: 20px;
+  }
+ 
+  /* PRODUCTS */
+  .products {
+    padding: 20px 10px;
+    margin-top: 10px;
+  }
+ 
+  .product-seller {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    gap: 16px;
+  }
+ 
+  .product-seller a {
+    font-size: 15px;
+  }
+ 
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 16px 10px;
+  }
+ 
+  .product-cell {
+    padding: 16px 12px;
+  }
+ 
+  .product-image {
+    width: 110px;
+    height: 110px;
+  }
+ 
+  .product-name {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+ 
+  .product-price {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+ 
+  .buy-now {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+ 
+  /* POPULAR */
+  .popular {
+    grid-template-columns: 1fr;
+  }
+ 
+  .popular-card,
+  .ipad-card,
+  .samsung-card,
+  .macpro-card {
+    min-height: auto;
+    padding: 24px 20px;
+    text-align: center;
+  }
+ 
+  .popular-card h2,
+  .ipad-card h2,
+  .samsung-card h2,
+  .macpro-card h2 {
+    font-size: 28px;
+  }
+ 
+  .shop-button {
+    padding: 14px 40px;
+    font-size: 14px;
+  }
+ 
+  /* DISCOUNTS */
+  .discounts h2 {
+    margin: 40px 16px 20px;
+    font-size: 20px;
+  }
+ 
+  /* BANNER */
+  .banner {
+    height: auto;
+    padding: 60px 20px;
+  }
+ 
+  .big-banner {
+    transform: none;
+  }
+ 
+  .banner h1 {
+    font-size: 42px;
+  }
+ 
+  /* FOOTER */
+  .footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+ 
+  .footer-icon {
+    margin-top: 20px;
+    gap: 20px;
+  }
+ 
+  .footer-column,
+  .footer-column1 {
+    width: 100%;
+    min-width: unset;
+  }
+}
+ 
+/* =========================
+   RESPONSIVE — 456px
+========================= */
+@media (max-width: 456px) {
+  .hero-title {
+    font-size: 40px;
+  }
+ 
+  .hero-company {
+    font-size: 14px;
+  }
+ 
+  .hero-description {
+    font-size: 13px;
+  }
+
+  .hero-browser-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0;
+}
+ 
+  .hero-image img {
+    width: 190px;
+  }
+ 
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 12px 8px;
+  }
+ 
+  .product-cell {
+    padding: 12px 8px;
+    border-radius: 8px;
+  }
+ 
+  .product-image {
+    width: 90px;
+    height: 90px;
+  }
+ 
+  .product-name {
+    font-size: 11px;
+  }
+ 
+  .product-price {
+    font-size: 1rem;
+    margin: 6px 0;
+  }
+ 
+  .buy-now {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+ 
+  .wishlist-btn {
+    font-size: 40px;
+    top: 6px;
+    right: 6px;
+  }
+ 
+  .discounts h2 {
+    font-size: 18px;
+    margin: 30px 12px 16px;
+  }
+ 
+  .banner h1 {
+    font-size: 32px;
+  }
+ 
+  .banner p {
+    font-size: 14px;
+  }
+}
+ 
+/* =========================
+   POPULAR CAROUSEL (MOBILE)
+========================= */
+.popular-carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+ 
+/* Desktop — keep original 4 grid */
+.popular {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+.popular-scroll {
+  display: none; /* hidden on desktop */
+}
+ 
+.popular-dots {
+  display: none; /* hidden on desktop */
+}
+ 
+/* =========================
+   MOBILE CAROUSEL
+========================= */
+@media (max-width: 768px) {
+ 
+  /* Hide desktop grid */
+  .popular {
+    display: none !important;
+  }
+ 
+  /* Show carousel */
+  .popular-scroll {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    width: 100%;
+  }
+ 
+  .popular-scroll::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .popular-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 24px 50px;
+    box-sizing: border-box;
+    min-height: 520px;
+    justify-content: center;
+  }
+ 
+  .popular-slide-img {
+    width: 75%;
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 24px;
+  }
+ 
+  .popular-slide h2 {
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 12px;
+  }
+ 
+  .popular-slide p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 280px;
+  }
+ 
+  /* Dots */
+  .popular-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 0 24px;
+    background: #fff;
+  }
+ 
+  .popular-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.3s ease;
+  }
+ 
+  .popular-dot-active {
+    background: #000;
+    width: 24px;
+    border-radius: 4px;
+  }
+ 
+  /* Products grid fix — no overflow */
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    padding: 16px 10px !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+ 
+  .product-cell {
+    padding: 12px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+  }
+ 
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-width: 110px;
+    height: 110px;
+    object-fit: contain;
+  }
+ 
+  .buy-now {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+ 
+  /* Discounts grid */
+  .discounts .products-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    padding: 10px !important;
+  }
+}
+ 
+@media (max-width: 456px) {
+  .popular-slide h2 {
+    font-size: 26px;
+  }
+ 
+  .popular-slide p {
+    font-size: 13px;
+  }
+ 
+  .popular-slide-img {
+    width: 85%;
+  }
+ 
+  .products-grid {
+    gap: 8px !important;
+    padding: 10px 8px !important;
+  }
+ 
+  .product-image {
+    max-width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+ 
+  .product-name {
+    font-size: 20px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+  }
+ 
+  .product-price {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  /* Hero */
+  .hero-section {
+    padding: 0 60px;
+  }
+ 
+  .hero-title {
+    font-size: 72px;
+  }
+ 
+  .hero-image img {
+    width: 300px;
+  }
+ 
+  /* Browse */
+  .browser {
+    margin: 0 60px;
+  }
+ 
+  .category-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+ 
+/* =========================
+   RESPONSIVE — 768px
+========================= */
+@media (max-width: 768px) {
+ 
+  /* Hero — stack vertically like image 2 */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 30px 0;
+    min-height: 100svh;
+    justify-content: flex-start;
+    gap: 0;
+  }
+ 
+  .hero-content {
+    order: 1;
+    margin: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+ 
+  .hero-image {
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .hero-image img {
+    width: 100%;
+    max-width: 380px;
+  }
+ 
+  .hero-company {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+ 
+  .hero-title {
+    font-size: 58px;
+    line-height: 1.05;
+  }
+ 
+  .hero-description {
+    font-size: 16px;
+    margin: 16px auto;
+    max-width: 340px;
+  }
+ 
+  .shop-btn {
+    padding: 16px 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+ 
+  /* Browse */
+  .browser {
+    margin: 0 20px;
+  }
+ 
+  .hhh {
+    font-size: 24px;
+    margin: 30px 0 16px 4px;
+  }
+ 
+  /* Category grid — 2 columns like image 1 */
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+ 
+  .scroll-item {
+    height: 140px;
+    border-radius: 16px;
+    font-size: 15px;
+    min-width: unset;
+    width: 100%;
+  }
+ 
+  .scroll-item img {
+    width: 48px;
+    height: 48px;
+  }
+ 
+  .btns {
+    font-size: 24px;
+  }
+}
+ 
+/* =========================
+   RESPONSIVE — 456px
+========================= */
+@media (max-width: 456px) {
+ 
+  /* Hero */
+  .hero-section {
+    padding: 40px 20px;
+    margin-bottom: -80px;
+  }
+ 
+  .hero-company {
+    font-size: 20px;
+  }
+ 
+  .hero-title {
+    font-size: 65px;
+  }
+ 
+  .hero-description {
+    font-size: 17px;
+    max-width: 280px;
+  }
+ 
+  .shop-btn {
+    padding: 17px 45px;
+    font-size: 17px;
+  }
+ 
+  .hero-image img {
+    max-width: 300px;
+  }
+ 
+  /* Browse */
+  .browser {
+    margin: 0 14px;
+  }
+ 
+  .hhh {
+    font-size: 20px;
+  }
+ 
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+ 
+  .scroll-item {
+    height: 120px;
+    border-radius: 12px;
+    font-size: 13px;
+    padding: 14px 8px;
+  }
+ 
+  .scroll-item img {
+    width: 36px;
+    height: 36px;
+  }
+ 
+  .btns {
+    font-size: 20px;
+  }
+}
+
+
+
+.hero-grid-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+ 
+/* Base card */
+.hg-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+ 
+/* =========================
+   ROW 1 — PlayStation
+   Desktop: image left, text right
+========================= */
+.hg-playstation {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 320px;
+  padding: 0;
+}
+ 
+.hg-ps-img {
+  width: 370px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+ 
+.hg-ps-text {
+  padding: 30px 40px;
+}
+ 
+.hg-ps-text h2 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 12px;
+  color: #111;
+}
+ 
+.hg-ps-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  max-width: 320px;
+  line-height: 1.6;
+}
+ 
+/* =========================
+   ROW 2 — AirPods + Vision
+   Desktop: 2 columns side by side
+========================= */
+.hg-row-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ 
+.hg-airpods {
+  background: #ededed;
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 16px;
+  min-height: 260px;
+}
+ 
+.hg-airpods .hg-img {
+  width: 120px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+ 
+.hg-airpods .hg-text h3 {
+  font-size: 32px;
+  font-weight: 100;
+  color: #2e2e2e;
+  margin-bottom: 8px;
+}
+ 
+.hg-airpods .hg-text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+}
+ 
+.hg-vision {
+  background: #353535;
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 16px;
+  min-height: 260px;
+}
+ 
+.hg-vision .hg-img {
+  width: 150px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+ 
+.hg-vision-text h3 {
+  font-size: 32px;
+  font-weight: 100;
+  color: #e9e8e8;
+  margin-bottom: 8px;
+}
+ 
+.hg-vision-text p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #bdbdbd;
+}
+ 
+.hg-vision-text strong {
+  color: white;
+  font-weight: 700;
+}
+ 
+/* =========================
+   ROW 3 — MacBook
+   Desktop: text left, image right
+========================= */
+.hg-macbook {
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 320px;
+  padding: 40px;
+}
+ 
+.hg-mac-text h2 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #2e2e2e;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+ 
+.hg-mac-text strong {
+  font-weight: 700;
+  color: #000;
+}
+ 
+.hg-mac-text p {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+  max-width: 340px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+ 
+.hg-shop-btn {
+  background: transparent;
+  border: 2px solid black;
+  padding: 18px 60px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+.hg-mac-img {
+  width: 300px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.hero-browser-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* Important */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.browser-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btns {
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.hhh {
+  margin: 0;
+  line-height: 1;
+}
+ 
+/* =========================
+   RESPONSIVE — 1024px
+========================= */
+@media (max-width: 1024px) {
+  .hg-ps-img {
+    width: 280px;
+  }
+ 
+  .hg-ps-text h2 {
+    font-size: 38px;
+  }
+ 
+  .hg-mac-text h2 {
+    font-size: 42px;
+  }
+ 
+  .hg-mac-img {
+    width: 240px;
+  }
+ 
+  .hg-macbook {
+    padding: 30px;
+  }
+}
+ 
+/* =========================
+   1024px (Tablet Landscape)
+========================= */
+
+@media (max-width: 1024px) {
+
+  .scroll-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    overflow: hidden !important;
+  }
+
+  .scroll-item {
+    width: 100% !important;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .hhh {
+    font-size: 32px;
+  }
+  .scroll-container img {
+  width: 60%;
+  height: 50%;
+}
+}
+
+
+/* =========================
+   768px (Tablet Portrait)
+========================= */
+
+@media (max-width: 768px) {
+
+  .scroll-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    overflow: hidden !important;
+  }
+
+  .scroll-item {
+    width: 100% !important;
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .hhh {
+    font-size: 28px;
+  }
+  .scroll-container img {
+  width: 60%;
+  height: 50%;
+
+}
+}
+
+
+/* =========================
+   456px (Mobile)
+========================= */
+
+@media (max-width: 456px) {
+
+  .hero-browse {
+    padding: 20px;
+  }
+
+  .hero-browser-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .browser-button {
+    display: flex;
+    flex-direction: row !important; /* force same row */
+    gap: 5px;
+  }
+
+  .btns {
+    font-size: 24px;
+  }
+
+  .hhh {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .scroll-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px !important;
+
+    overflow: hidden !important;
+
+    align-items: start;
+    align-content: start;
+
+    height: auto !important;
+  }
+
+  .scroll-item {
+    width: 100% !important;
+    height: auto !important;
+
+    max-width: none !important; /* Important */
+    margin: 0 !important;
+  }
+
+  .scroll-container img {
+  width: 100%;
+  height: 100%;
+}
+}

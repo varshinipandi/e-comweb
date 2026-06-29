@@ -1,0 +1,153 @@
+.wishlist-page {
+  padding: 60px 80px;
+}
+
+.wishlist-page h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* 4 column grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Product card */
+.product-card {
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+}
+
+/* Heart button - top right, always active (red) in wishlist */
+.product-card .wishlist-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #e00;        /* always red in wishlist page */
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.product-card .wishlist-btn:hover {
+  transform: scale(1.2);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+.product-card h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.product-card .price {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+.product-card .buy-now {
+  width: 100%;
+  padding: 0.65rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.product-card .buy-now:hover {
+  background: #333;
+}
+
+/* Empty state */
+.wishlist-empty {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+  .wishlist-page {
+    padding: 40px 40px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .wishlist-page {
+    padding: 30px 20px;
+  }
+
+  .wishlist-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .product-card img {
+    max-width: 100px;
+    height: 100px;
+  }
+
+  .product-card h3 {
+    font-size: 0.75rem;
+  }
+
+  .product-card .price {
+    font-size: 1rem;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .product-card img {
+    max-width: 80px;
+    height: 80px;
+  }
+}
