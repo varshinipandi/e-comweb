@@ -6,7 +6,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description:
       "Enhanceed capability thanks tonan enlarged display of 6.7 inchesand work without rechanrging through the day. Incredible photos as in weak, yes and in bright light using the new system with two cameras and the light will be brighter than the other compactbile features and screen dispaly and care will be more relaiable and guaranteed to use by us and company will produce full esponse for it.",
    details: {
@@ -27,7 +27,7 @@ export const sampleProducts = [
     oldPrice: 649,
     brand: "Apple",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description:
       "Powerful performance with dual camera system. The iPhone 11 delivers great value.",
     details: {
@@ -48,7 +48,7 @@ export const sampleProducts = [
     oldPrice: 699,
     brand: "Apple",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Another variant of the iPhone 11 with excellent battery life.",
     details: {
       screen: '6.1"',
@@ -68,7 +68,7 @@ export const sampleProducts = [
     oldPrice: 1699,
     brand: "Apple",
     category: "smartphones",
-    image: "/iphone-14-pro-mq2v3.png",
+    image: "/Iphone-14-pro-mq2v3.png",
     description: "Maximum storage capacity with the latest iPhone 14 Pro.",
     details: {
       screen: '6.1"',
@@ -88,7 +88,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description: "Elegant Space Black variant of the powerful iPhone 14 Pro.",
     details: {
       screen: '6.1"',
@@ -148,7 +148,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/apple space black mq0t3.png",
+    image: "/apple-space-black-mq0t3.png",
     description: "Professional-grade iPhone with advanced camera system.",
     details: {
       screen: '6.1"',
@@ -168,7 +168,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/iphone 14 pro mq2v3.png",
+    image: "/Iphone-14-pro-mq2v3.png",
     description: "Classic Silver iPhone 14 Pro with top-tier performance.",
     details: {
       screen: '6.1"',
@@ -208,7 +208,7 @@ export const sampleProducts = [
     oldPrice: 299,
     brand: "Samsung",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Mid-range Samsung phone with 5G capability.",
     details: {
       screen: '6.5"',
@@ -228,7 +228,7 @@ export const sampleProducts = [
     oldPrice: 349,
     brand: "Samsung",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description: "Budget-friendly Samsung 5G phone.",
     details: {
       screen: '6.5"',
@@ -248,7 +248,7 @@ export const sampleProducts = [
     oldPrice: 429,
     brand: "Samsung",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Premium Samsung flagship with ultra technology.",
     details: {
       screen: '6.8"',
@@ -268,7 +268,7 @@ export const sampleProducts = [
     oldPrice: 299,
     brand: "Honor",
     category: "smartphones",
-    image: "/apple space black mq0t3.png",
+    image: "/apple-space-black-mq0t3.png",
     description: "Honor flagship with 5G connectivity.",
     details: {
       screen: '6.7"',
@@ -288,7 +288,7 @@ export const sampleProducts = [
     oldPrice: 1999,
     brand: "Honor",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Premium Honor flagship with Sunrise Gold finish.",
     details: {
       screen: '6.8"',
@@ -308,7 +308,7 @@ export const sampleProducts = [
     oldPrice: 2699,
     brand: "Honor",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description: "Ultra-premium Honor Peace variant with maximum storage.",
     details: {
       screen: '6.9"',
@@ -328,7 +328,7 @@ export const sampleProducts = [
     oldPrice: 2199,
     brand: "Motorola",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Motorola Edge with stylus support.",
     details: {
       screen: '6.7"',
@@ -388,7 +388,7 @@ export const sampleProducts = [
     oldPrice: 1999,
     brand: "Realme",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description: "Realme flagship with high RAM capacity.",
     details: {
       screen: '6.7"',
@@ -428,7 +428,7 @@ export const sampleProducts = [
     oldPrice: 799,
     brand: "Realme",
     category: "smartphones",
-    image: "/apple space black mq0t3.png",
+    image: "/apple-space-black-mq0t3.png",
     description: "Budget Realme with decent specs.",
     details: {
       screen: '6.5"',
@@ -448,7 +448,7 @@ export const sampleProducts = [
     oldPrice: 499,
     brand: "Realme",
     category: "smartphones",
-    image: "/apple-watch-series-9.png",
+    image: "/apple iphone 14 pro max.png",
     description: "Realme 5G budget phone.",
     details: {
       screen: '6.5"',
@@ -488,7 +488,7 @@ export const sampleProducts = [
     oldPrice: 599,
     brand: "Nokia",
     category: "smartphones",
-    image: "/iphone-14-pro-mq233.png",
+    image: "/Iphone-14-pro-mq233.png",
     description: "Nokia 5G mid-range with clean software.",
     details: {
       screen: '6.43"',
@@ -508,7 +508,7 @@ export const sampleProducts = [
     oldPrice: 599,
     brand: "Nokia",
     category: "smartphones",
-    image: "/apple iphone mq233.png",
+    image: "/apple-iphone-mq233.png",
     description: "Classic Nokia Lumia with 8GB memory.",
     details: {
       screen: '4.3"',
@@ -714,7 +714,7 @@ export const sampleProducts = [
     oldPrice: 499,
     brand: "Boat",
     category: "smartwatch",
-    image: "/apple watch serier 9 gps",
+    image: "/apple watch serier 9 gps.png",
     description: "Budget Boat smartwatch.",
     details: {
       screen: '1.1"',
@@ -954,7 +954,7 @@ export const sampleProducts = [
     oldPrice: 1199,
     brand: "Apple",
     category: "laptop",
-    image: "/MacBook.png",
+    image: "/Macbook.png",
     description: "Apple MacBook with A18 processor.",
     details: {
       screen: '13"',
@@ -1014,7 +1014,7 @@ export const sampleProducts = [
     oldPrice: 1099,
     brand: "Sony Interactive",
     category: "gaming",
-    image: "/playstation.png",
+    image: "/PlayStation-1.png",
     description: "PlayStation 5 console.",
     details: {
       screen: "N/A - Connect to TV",
@@ -1034,7 +1034,7 @@ export const sampleProducts = [
     oldPrice: 1699,
     brand: "Sony Interactive",
     category: "gaming",
-    image: "/playstation.png",
+    image: "/PlayStation.png",
     description: "Next-gen PlayStation 6 console.",
     details: {
       screen: "N/A - Connect to TV",
