@@ -112,7 +112,7 @@ function HeroSection() {
             </button>
           </div>
           <div className="hero-image">
-            <img src="/Iphone image.png" alt="iPhone" />
+            <img src="/iphoneimage.png" alt="iPhone" />
           </div>
         </section>
 
