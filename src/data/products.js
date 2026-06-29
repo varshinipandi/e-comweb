@@ -68,7 +68,7 @@ export const sampleProducts = [
     oldPrice: 1699,
     brand: "Apple",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq2v3.png",
+    image: "/iphone-14-pro-mq2v3.png",
     description: "Maximum storage capacity with the latest iPhone 14 Pro.",
     details: {
       screen: '6.1"',
@@ -168,7 +168,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq2v3.png",
+    image: "/iphone-14-pro-mq2v3.png",
     description: "Classic Silver iPhone 14 Pro with top-tier performance.",
     details: {
       screen: '6.1"',
