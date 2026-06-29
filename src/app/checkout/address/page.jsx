@@ -83,8 +83,8 @@ export default function AddressPage() {
 
   const steps = [
     { num: 1, label: "Address",  img: "/adress1.png" , mobileImg: "/adress1.png"  },
-    { num: 2, label: "Shipping", img: "/shipping1.png" , mobileImg: "/shipping1.png" },
-    { num: 3, label: "Payment",  img: "/payment1.png"  },
+    { num: 2, label: "Shipping", img: "/Shipping1.png" , mobileImg: "/Shipping1.png" },
+    { num: 3, label: "Payment",  img: "/Payment1.png"  },
   ];
 
   return (

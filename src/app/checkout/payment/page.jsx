@@ -37,8 +37,8 @@ export default function PaymentPage() {
   const total = subtotal + tax + shippingCost;
 
   const steps = [
-    { num: 1, label: "Address",  img: "/location.png"  },
-    { num: 2, label: "Shipping", img: "/shipping1.png" },
+    { num: 1, label: "Address",  img: "/Location.png"  },
+    { num: 2, label: "Shipping", img: "/Shipping1.png" },
     { num: 3, label: "Payment",  img: "/Payment.png"   },
   ];
 

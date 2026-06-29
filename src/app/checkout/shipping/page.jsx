@@ -43,9 +43,9 @@ export default function ShippingPage() {
     date.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 
   const steps = [
-    { num: 1, label: "Address",  img: "/location.png" },
-    { num: 2, label: "Shipping", img: "/shipping.png" },
-    { num: 3, label: "Payment",  img: "/payment1.png" },
+    { num: 1, label: "Address",  img: "/Location.png" },
+    { num: 2, label: "Shipping", img: "/Shipping.png" },
+    { num: 3, label: "Payment",  img: "/Payment1.png" },
   ];
 
   return (

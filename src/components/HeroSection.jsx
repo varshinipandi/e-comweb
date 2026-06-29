@@ -225,7 +225,7 @@ function HeroSection() {
           </div>
 
           <div className="macpro-card">
-            <img src="/macbook.png" alt="Macbook Pro" />
+            <img src="/Macbook.png" alt="Macbook Pro" />
             <div className="macpro-1">
               <h2 style={{
     fontFamily: "var(--font-inter)",
