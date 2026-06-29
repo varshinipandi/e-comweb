@@ -6,7 +6,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description:
       "Enhanceed capability thanks tonan enlarged display of 6.7 inchesand work without rechanrging through the day. Incredible photos as in weak, yes and in bright light using the new system with two cameras and the light will be brighter than the other compactbile features and screen dispaly and care will be more relaiable and guaranteed to use by us and company will produce full esponse for it.",
    details: {
@@ -88,7 +88,7 @@ export const sampleProducts = [
     oldPrice: 1599,
     brand: "Apple",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description: "Elegant Space Black variant of the powerful iPhone 14 Pro.",
     details: {
       screen: '6.1"',
@@ -228,7 +228,7 @@ export const sampleProducts = [
     oldPrice: 349,
     brand: "Samsung",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description: "Budget-friendly Samsung 5G phone.",
     details: {
       screen: '6.5"',
@@ -308,7 +308,7 @@ export const sampleProducts = [
     oldPrice: 2699,
     brand: "Honor",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description: "Ultra-premium Honor Peace variant with maximum storage.",
     details: {
       screen: '6.9"',
@@ -388,7 +388,7 @@ export const sampleProducts = [
     oldPrice: 1999,
     brand: "Realme",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description: "Realme flagship with high RAM capacity.",
     details: {
       screen: '6.7"',
@@ -488,7 +488,7 @@ export const sampleProducts = [
     oldPrice: 599,
     brand: "Nokia",
     category: "smartphones",
-    image: "/Iphone-14-pro-mq233.png",
+    image: "/iphone-14-pro-mq233.png",
     description: "Nokia 5G mid-range with clean software.",
     details: {
       screen: '6.43"',
