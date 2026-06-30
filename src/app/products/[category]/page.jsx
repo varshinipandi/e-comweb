@@ -107,7 +107,7 @@ export default function CategoryPage() {
         <h3 className="active-category">{categoryLabel}</h3>
       </div>
 
-      {/* Mobile Filter Trigger Bar */}
+      {/* Mobile Filter + Sort Bar (Filters + By rating side by side, like the image) */}
       <div className="mobile-filter-bar">
         <button
           className="mobile-filter-btn"
@@ -116,6 +116,16 @@ export default function CategoryPage() {
           <span>Filters</span>
           <span className="filter-icon">⫶☰</span>
         </button>
+
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+          className="sort-dropdown"
+        >
+          <option value="rating">By Rating</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+        </select>
       </div>
 
       {/* Overlay */}
@@ -230,8 +240,6 @@ export default function CategoryPage() {
             )}
           </div>
 
-      
-
           {/* Built-in Memory */}
           <div className="filter-section">
             <h3
@@ -328,16 +336,6 @@ export default function CategoryPage() {
             <div className="selected-info">
               Selected Products: <strong>{filteredProducts.length}</strong>
             </div>
-
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="sort-dropdown"
-            >
-              <option value="rating">By Rating</option>
-              <option value="low">Price: Low to High</option>
-              <option value="high">Price: High to Low</option>
-            </select>
           </div>
 
           <div className="product-grid">
