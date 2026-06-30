@@ -32,7 +32,7 @@ function HeroGrid() {
   <img
     src={
       isMobile
-        ? "/playStation-1.png"
+        ? "/PS1.png"
         : "/PlayStation.png"
     }
     alt="PlayStation 5"
@@ -47,6 +47,7 @@ function HeroGrid() {
     </p>
   </div>
 </div>
+<br/><br/>
 
         {/* AirPods + Vision */}
         <div className="hg-small-row">
